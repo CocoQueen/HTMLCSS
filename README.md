@@ -4,7 +4,7 @@
 	title 网页标题   
 	body表示网页的主体，网页的内容都写在这里
 
-# 001 博客
+# [001 博客](HTMLCSS/001博客/index.html)
 
 	h1 		1级标题  
 	h2 		2级标题  
@@ -19,7 +19,7 @@
 	br    	换行标签  
 	b   	文字会出现加粗效果
  
- # 002 新闻列表
+ # [002 新闻列表](HTMLCSS/002新闻列表/index.html)
 
 	a href="http://www.baidu.com"	超链接  
 	img src="img/icon_arrow.png" 	图片  
