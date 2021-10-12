@@ -4,7 +4,7 @@
 	title 网页标题   
 	body表示网页的主体，网页的内容都写在这里
 
-# [001 博客](HTMLCSS/001博客/index.html)
+# [001 博客](https://gitee.com/lzllzllhl/htmlcss/blob/master/001%E5%8D%9A%E5%AE%A2/index.html)
 
 	h1 		1级标题  
 	h2 		2级标题  
