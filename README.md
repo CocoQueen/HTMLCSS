@@ -1,3 +1,4 @@
+# [HTML基础认识](https://gitee.com/lzllzllhl/htmlcss/blob/master/index.html)
 	!DOCTYPE html 这句声明，就是告诉浏览器，请使用HTML5的标准来解析这个网页  
 	head 表示网页的头部，这里的信息都是对网页的整体说明	 
 	meta charset="utf-8" 编码格式  
