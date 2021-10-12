@@ -1,32 +1,66 @@
 # [HTML基础认识](https://gitee.com/lzllzllhl/htmlcss/blob/master/index.html)
-	!DOCTYPE html 这句声明，就是告诉浏览器，请使用HTML5的标准来解析这个网页  
-	head 表示网页的头部，这里的信息都是对网页的整体说明	 
-	meta charset="utf-8" 编码格式  
-	title 网页标题   
-	body表示网页的主体，网页的内容都写在这里
+```html
+	<!DOCTYPE html>
+	<!-- 这句声明，就是告诉浏览器，请使用HTML5的标准来解析这个网页 -->
+	<html>
+	<!-- 表示网页的头部，这里的信息都是对网页的整体说明 -->
+		<head>
+		<!-- 编码格式 -->
+			<meta charset="utf-8">
+			<!-- 网页标题 -->
+			<title>
+			</title>
+		</head>
+	<!-- 表示网页的主体，网页的内容都写在这里 -->
+		<body>
+		</body>
+	</html>
+```
 
 # [001 博客](https://gitee.com/lzllzllhl/htmlcss/blob/master/001%E5%8D%9A%E5%AE%A2/index.html)
 
-	h1 		1级标题  
-	h2 		2级标题  
-	h3 		3级标题  
-	h4 		4级标题  
-	h5 		5级标题  
-	h6 		6级标题     
-	&nbsp;	网页上显示一个空格  
-	i    	斜体标签 文字会出现斜体效果  
-	hr    	水平线  
-	p    	段落标签 文字会独占一行  
-	br    	换行标签  
-	b   	文字会出现加粗效果
+```html
+	<h1>1级标题</h1>
+	<h2>2级标题</h2>
+	<h3>3级标题</h3>
+	<h4>4级标题</h4>
+	<h5>5级标题</h5>
+	<h6>6级标题</h6>
+	&nbsp;网页上显示一个空格  
+	<i>斜体标签 文字会出现斜体效果 </i>
+	<hr/>水平线
+	<p>段落标签，文字会独占一行</p>
+	<br/>换行标签
+	<b>文字会出现加粗效果</b>
+``` 
  
  # [002 新闻列表](https://gitee.com/lzllzllhl/htmlcss/blob/master/002%E6%96%B0%E9%97%BB%E5%88%97%E8%A1%A8/index.html)
-
-	a href="http://www.baidu.com"	超链接  
-	img src="img/icon_arrow.png" 	图片  
-	ul	     						无序列表  
-	ol    							有序列表  
-	li 								列表项目
+```html
+<!-- <a href="http://www.baidu.com">内容内容</a> 超链接 -->
+	<!-- <img src="img/icon_arrow.png" /> 图片 -->
+	<!-- <ul><li>列表项目</li></ul>无序列表 -->
+	<!-- <ol><li>列表项目</li></ol>有序列表 -->
+	<body>
+		<h1>科技&nbsp;<img src="img/icon_arrow.png"></h1>
+		<hr />
+		<ul>
+			<li>
+				<a href="http://www.baidu.com">中子星内“核面食”比钢硬100亿倍</a>
+			</li>
+			<li>蒂姆·库克分享新iPhone xs用户拍摄样张</li>
+			<li>专家解读：中国知识付费经济向上态势明显</li>
+			<li>苹果推送 macOS Mojave 正式版，你更新...</li>
+		</ul>
+		<ol>
+			<li>
+				<a href="http://www.baidu.com">中子星内“核面食”比钢硬100亿倍</a>
+			</li>
+			<li>蒂姆·库克分享新iPhone xs用户拍摄样张</li>
+			<li>专家解读：中国知识付费经济向上态势明显</li>
+			<li>苹果推送 macOS Mojave 正式版，你更新...</li>
+		</ol>
+	</body>
+```
 
 # [003 如何下载图片及切图](https://gitee.com/lzllzllhl/htmlcss/blob/master/003%E5%9B%BE%E7%89%87%E7%9A%84%E4%BD%BF%E7%94%A8/index.html)
 
@@ -39,22 +73,72 @@
 	a标签中  
 	href：链接地址  
 	target：表示目标 blank表示空白（即：在空白窗口打开新的页面）
+```html
+<a href="http://www.baidu.com" target="_blank">点我</a>
+```
 
 ## 关于无序列表
 	提供了三种样式  
 	1.实心圆(默认)  	disc  
 	2.空心圆			circle  
 	3.实心方块		square  
+```html
+<ul type="disc">
+			<li>项目列表</li>
+			<li>项目列表</li>
+			<li>项目列表</li>
+		</ul>
+		<ul type="circle">
+			<li>项目列表</li>
+			<li>项目列表</li>
+			<li>项目列表</li>
+		</ul>
+		<ul type="square">
+			<li>项目列表</li>
+			<li>项目列表</li>
+			<li>项目列表</li>
+		</ul>
+```
 
 ## 关于有序列表
 	提供了三种样式  
 	1.数字(默认)		1  
 	2.小写字母		a/A  
 	3.大写罗马字母	i/I  
+```html
+<ol type="1">
+			<li>项目列表</li>
+			<li>项目列表</li>
+			<li>项目列表</li>
+		</ol>
+		<ol type="A">
+			<li>项目列表</li>
+			<li>项目列表</li>
+			<li>项目列表</li>
+		</ol>
+		<ol type="a">
+			<li>项目列表</li>
+			<li>项目列表</li>
+			<li>项目列表</li>
+		</ol>
+		<ol type="i">
+			<li>项目列表</li>
+			<li>项目列表</li>
+			<li>项目列表</li>
+		</ol>
+		<ol type="I">
+			<li>项目列表</li>
+			<li>项目列表</li>
+			<li>项目列表</li>
+		</ol>
+```
 
 ## 关于图片
 	title：鼠标滑上去时的提示  
 	alt：图片加载失败后的文字
+```html
+<img  title="鼠标滑上去时的提示" alt="图片加载失败后的文字" src="../002新闻列表/img/icon_arrow.png" />
+```
 
 ## 不常用的标签
 
@@ -62,6 +146,12 @@
 	sup 把文字变成上标  
 	u 给文字加下划线  
 	center 把文字居中
+```html
+		<del>哈哈哈</del>
+		<sup>2</sup>
+		<u>hghhahh</u>
+		<center>hnfajk</center>
+```
 
 # [005 百度云盘制作](https://gitee.com/lzllzllhl/htmlcss/blob/master/005%E7%99%BE%E5%BA%A6%E4%BA%91%E7%9B%98%E5%88%B6%E4%BD%9C/demo.html)
 	绝对地址：在任何情况下，都可以找得到的地址  
@@ -75,21 +165,105 @@
 	td 表示单元格  
 	align 排列 表示对齐方式
 	col 表示一列
+```html
+<body>
+		<h3>前端技术阶段划分标准</h3>
+		<!-- table 表格标签
+		border 边框
+		cellspacing 单元格间隙 -->
+		<table border="1px" cellspacing="0">
+			<!-- align 排列 表示对齐方式 -->
+			<!-- col 表示列 -->
+			<col width="200px"/>
+			<col width="200px"/>
+			<col width="200px"/>
+			<col width="200px"/>
+			<col width="200px"/>
+			<tr align="center">
+				<td></td>
+				<td>初级</td>
+				<td>中级</td>
+				<td>高级</td>
+				<td>专家</td>
+			</tr>
+			<tr align="center">
+				<td>标准</td>
+				<td>被产品怼的说不出话</td>
+				<td>跟产品互怼不相上下</td>
+				<td>怼的产品没话说</td>
+				<td>直接将其怼辞职</td>
+			</tr>
+			<tr align="center">
+				<td>用户A</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr align="center">
+				<td>用户B</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr align="center">
+				<td>用户C</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</body>
+```
 
 # [007 个人简历的制作](https://gitee.com/lzllzllhl/htmlcss/blob/master/007%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86%E5%88%B6%E4%BD%9C/demo.html)
 	colspan  	列合并  
 	rowspan 	行合并  
+```html
+<tr height="40px" align="center">
+				<td>姓名</td>
+				<td></td>
+				<td>性别</td>
+				<td></td>
+				<td>年龄</td>
+				<td></td>
+				<td rowspan="4">照片</td>
+			</tr>
+			<tr height="40px" align="center">
+				<td>学历</td>
+				<td></td>
+				<td>籍贯</td>
+				<td colspan="3"></td>
+			</tr>
+			<tr height="40px" align="center">
+				<td>电话</td>
+				<td></td>
+				<td>政治面貌</td>
+				<td colspan="3"></td>
+			</tr>
+```
 
 # [008 表格知识补充](https://gitee.com/lzllzllhl/htmlcss/blob/master/008%E8%A1%A8%E6%A0%BC%E7%9F%A5%E8%AF%86%E8%A1%A5%E5%85%85/demo.html)
 
 ## 关于表头 
 	td 转换为th 就会出现文字加粗的效果  th=加粗并水平居中的td  
+```html
+<tr height="40px" align="center">
+	<th colspan="7">个人简历</th>
+</tr>
+```
 
 ## 关于colgroup 标签
 	colgroup span=6 width=100px 可以批量设置列的宽度
+```html
+<colgroup span="6" width="100px"></colgroup>
+<colgroup span="1" width="200px"></colgroup>
+```
 
 ## 关于tbody
-	根据w3c的标准 一个表格应包括页眉(thead)、主体(tbody)、页脚(tfooter)三部分，其中主体部分是最重要的部分，建议省略tbody
+	根据w3c的标准 一个表格应包括页眉(thead)、主体(tbody)、页脚(tfooter)三部分，其中主体部分是最重要的部分，不建议省略tbody
 
 ## 关于注释
 	ctril+/
@@ -110,12 +284,46 @@
 	6.submit		提交按钮  
 	7.reset			重置按钮  
 	8.file			文件选择框  
+```html
+<input type="text"/>
+```
 	
 ## 表单知识点总结 
 	1.form必须有action属性，表示提交地址  
 	2.所有需要提交的数据，input必须有name属性  
 	3.input按钮的文字，使用value属性表示  
 	4.input必须放在form标签内才能提交  
+	
+```html
+	<form action="http://www.baidu.com" method="get">
+		<table width="600px" border="1px" cellspacing="0">
+			<tbody>
+				<tr height="40px">
+					<td rowspan="4" align="center">总体信息</td>
+					<td colspan="2"></td>
+				</tr>
+				<tr height="40px">
+					<td align="right">用户名：</td>
+					<td>
+						<input type="text" name="loginname"/>
+					</td>
+				</tr>
+				<tr height="40px">
+					<td align="right">密码：</td>
+					<td>
+						<input type="password" name="pwd"/>
+					</td>
+				</tr>
+				<tr height="40px">
+					<td colspan="2" align="center">
+						<input type="submit" value="提交" />
+						<input type="reset" value="重置" />
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+```
 
 ## get请求和post请求的区别
 
@@ -141,6 +349,29 @@
 # [011 容器的作用](https://gitee.com/lzllzllhl/htmlcss/blob/master/011%E5%AE%B9%E5%99%A8%E7%9A%84%E4%BD%9C%E7%94%A8/demo.html)
 	span:一个容器标签，不具备任何特殊功能，仅当做容器来使用，用于包裹一段文本，便于给文本增加样式。
 	div:一个通用的容器标签，不具备任何特殊功能，仅当做容器来使用。可以包裹任何内容，也可以容器直接互相包裹。
+```html
+	<div style="color: #aa00ff;margin: auto;width: 500px;">
+		<p style="text-align: center;">
+			<span style="background-color: gray;color: white;font-size: 24px;">
+				《生物多样性公约》缔约方大会第十五次会议开幕
+			</span>
+		</p>
+		<p>
+			<b>中国日报10月11日昆明电(记者 冯永斌 武晓慧）</b>
+		
+			<span style="color: aqua;">
+				2021年10月11日，联合国《生物多样性公约》缔约方大会第十五次会议（COP15）第一阶段会议在云南昆明正式拉开帷幕。
+			</span>
+		</p>
+		<p>
+			本届大会主题为“生态文明：
+			<b>
+				共建地球生命共同体”，
+			</b>
+			这是联合国环境公约缔约方大会首次将“生态文明”作为大会主题。本届大会于2021年10月11日至15日和2022年上半年分两阶段在昆明召开。
+		</p>
+	</div>
+```
 	
 ## style样式：
 	text-align:center	让内部元素水平居中
@@ -148,7 +379,6 @@
 	background-color	设定背景颜色
 	font-size			设定字体大小
 	color				设定文字颜色
-	
 	
 
 
