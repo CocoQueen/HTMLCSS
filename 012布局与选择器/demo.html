@@ -1,9 +1,82 @@
 <!DOCTYPE html>
+<!-- <html style="background-color: #666666;"> -->
 <html>
 	<head>
 		<meta charset="utf-8">
 		<title></title>
+		<style>
+			/* 标签选择器 */
+			html {
+				background-color: #666666;
+			}
+
+			/* 标签选择器 */
+			body {
+				margin: 0;
+			}
+
+			/* id选择器 */
+
+			#navigation {
+				height: 80px;
+				line-height: 80px;
+				text-align: center;
+				background-color: white;
+			}
+
+			#bottom {
+				height: 40px;
+				line-height: 40px;
+				text-align: center;
+				font-size: 14px;
+				color: gray;
+			}
+
+			/* 类(别)选择器 */
+			.nav {
+				text-decoration: none;
+				color: black;
+				margin: 0 15px;
+			}
+
+			/* 标签选择器 */
+			img {
+				width: 100%;
+			}
+
+			#banner img {
+				width: 100%;
+			}
+		</style>
 	</head>
+	<!-- <body style="margin: 0;"> -->
 	<body>
+		<div id="banner">
+			<!-- <img src="../003图片的使用/images/01.png" style="width: 100%;" /> -->
+			<img src="../003图片的使用/images/01.png" />
+		</div>
+		<!-- <div id="navigation" style="height: 80px;line-height: 80px;text-align: center;background-color: white;"> -->
+		<div id="navigation">
+			<!-- <a href="#" style="text-decoration: none;color: black;margin: 0 15px;">首页</a>
+			<a href="#" style="text-decoration: none;color: black;margin: 0 15px;">新闻中心</a>
+			<a href="#" style="text-decoration: none;color: black;margin: 0 15px;">联系我们</a>
+			<a href="#" style="text-decoration: none;color: black;margin: 0 15px;">关于我们</a>
+			<a href="#" style="text-decoration: none;color: black;margin: 0 15px;">占位A</a>
+			<a href="#" style="text-decoration: none;color: black;margin: 0 15px;">占位B</a>
+			<a href="#" style="text-decoration: none;color: black;margin: 0 15px;">占位C</a>
+			<a href="#" style="text-decoration: none;color: black;margin: 0 15px;">占位D</a> -->
+			<a href="#" class="nav">首页</a>
+			<a href="#" class="nav">新闻中心</a>
+			<a href="#" class="nav">联系我们</a>
+			<a href="#" class="nav">关于我们</a>
+			<a href="#" class="nav">占位A</a>
+			<a href="#" class="nav">占位B</a>
+			<a href="#" class="nav">占位C</a>
+			<a href="#" class="nav">占位D</a>
+		</div>
+		<!-- <div id="bottom" style="height: 40px;line-height: 40px;text-align: center;font-size: 14px;color: gray;"> -->
+		<div id="bottom">
+			版权所有：xxx互联网科技有限公司
+		</div>
 	</body>
 </html>
