@@ -394,7 +394,7 @@
 	行内样式优先级>内部样式
 	
 注：在实际网页开发中，作用于同一个元素上的多个样式产生冲突的情况不可避免的经常发生，当多个样式发生重叠时，优先级别高的样式会生效。
-因此得名：层叠样式表，简称CSS[(013 样式表的层叠)](https://github.com/CocoQueen/HTMLCSS/blob/main/012%E5%B8%83%E5%B1%80%E4%B8%8E%E9%80%89%E6%8B%A9%E5%99%A8/demo.html)
+因此得名：层叠样式表，简称CSS[(013 样式表的层叠)](https://github.com/CocoQueen/HTMLCSS/blob/main/013%E6%A0%B7%E5%BC%8F%E8%A1%A8%E7%9A%84%E5%B1%82%E5%8F%A0/demo.html)
 	
 	
 	
