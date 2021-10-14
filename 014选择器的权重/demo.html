@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+		/* 	a {
+				color: yellow;
+			}
+
+			div a {
+				color: green;
+			}
+
+			.demo a {
+				color: black;
+			}
+
+			#demo a {
+				color: orange;
+			}
+
+			div#demo a {
+				color: red;
+			} */
+			#news{
+				list-style: none;
+				width: 370px;
+			}
+			#news li{
+				height: 40px;
+				line-height: 40px;
+				border-bottom: dashed 1px grey;
+			
+			}
+			#news li a{
+				color: gray;
+				text-decoration: none;
+			}
+			/* 优先级低不起作用 用下面的写法 可去掉最后一行的虚线 */
+			/* .last{
+				border: none;
+			} */
+			#news .last{
+				border: none;
+			}
+		</style>
+
+	</head>
+	<body>
+		<!-- <a href="">黄色</a>
+		<div class="demo">
+			<a href="">黑色</a>
+		</div>
+		<div id="demo">
+			<a href="">红色</a>
+		</div> -->
+
+		<ul id="news">
+			<li>
+				<a href="">测试数据1</a>
+			</li>
+			<li>
+				<a href="">测试数据2</a>
+			</li>
+			<li>
+				<a href="">测试数据3</a>
+			</li>
+			<li>
+				<a href="">测试数据4</a>
+			</li>
+			<li class="last">
+				<a href="">测试数据5</a>
+			</li>
+		</ul>
+	</body>
+</html>
