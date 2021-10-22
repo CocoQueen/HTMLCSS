@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			.a {
+				width: 20%;
+				background: orangered;
+			}
+
+			.b {
+				width: 60%;
+				background: green;
+			}
+
+			.c {
+				width: 20%;
+				background: blue;
+			}
+			.a,.b,.c{
+				float: left;
+				height: 200px;
+			}
+			.d{
+				height: 360px;
+				background: #222222;
+			}
+			/* overflow:auto   表示溢出的意思 */
+			/* clear:left/right/both  表示该元素不受 左/右/左右 浮动的影响*/
+			.outter{
+				height: 200px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="outter">
+			<div class="a"></div>
+			<div class="b"></div>
+			<div class="c"></div>
+		</div>
+		<div class="d"></div>
+	</body>
+</html>
